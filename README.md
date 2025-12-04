@@ -1,13 +1,12 @@
-Sample Electron app with react that demonstrates the following:
+# React + Vite
 
-Multiple Processes: Set up both the main process (parent) and one or more Node processes (child).
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Inter-Process Communication: Showcase interaction between the parent and child processes using Electron's IPC (Inter-Process Communication) mechanisms.
+Currently, two official plugins are available:
 
-The app should demonstrate clear communication, such as sending messages or data from the child to the parent and vice versa.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Deliverables:
+## Expanding the ESLint configuration
 
-A working Electron app with the required functionality.
-
-A brief explanation of how the communication works in your app.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
